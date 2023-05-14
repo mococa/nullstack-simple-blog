@@ -1,0 +1,29 @@
+{
+  "name": "ns-blog",
+  "version": "0.0.1",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/remarkable": "^2.0.3",
+    "nullstack": "0.17.0",
+    "@typescript-eslint/eslint-plugin": "^5.55.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint-config-prettier": "^8.7.0",
+    "eslint-import-resolver-typescript": "^3.5.3",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.8",
+    "eslint": "^8.40.0",
+    "typescript": "^5.0.4"
+  },
+  "scripts": {
+    "start": "npx nullstack start",
+    "build": "npx nullstack build"
+  },
+  "dependencies": {
+    "highlight.js": "^11.8.0",
+    "remarkable": "^2.0.1"
+  }
+}

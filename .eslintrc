@@ -1,0 +1,56 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": ["@typescript-eslint", "prettier"],
+  "jsx-a11y/anchor-is-valid": "off",
+  "jsx-a11y/label-has-associated-control": "off",
+  "prettier/prettier": "error",
+  "no-use-before-define": "off",
+  "no-shadow": "off",
+  "no-await-in-loop": "off",
+  "@typescript-eslint/no-shadow": ["error"],
+  "import/extensions": [
+    "error",
+    "ignorePackages",
+    {
+      "ts": "never",
+      "tsx": "never"
+    }
+  ],
+  "import/prefer-default-export": "off",
+  "import/no-default-export": "error",
+  "camelcase": "off",
+  "@typescript-eslint/ban-types": "off",
+  "import/no-unresolved": ["off"],
+  "rules": {
+    "padded-blocks": "off"
+  },
+
+  "overrides": [
+    {
+      "files": ["src/**/*.{ts,tsx}"],
+      "rules": {
+        "padded-blocks": "off"
+      }
+    }
+  ],
+  "settings": {
+    "import/resolver": {
+      "typescript": {}
+    }
+  }
+}
