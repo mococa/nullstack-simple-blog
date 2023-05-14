@@ -2,6 +2,10 @@
 
 <img src='https://raw.githubusercontent.com/nullstack/nullstack/master/nullstack.png' height='60' alt='Nullstack' />
 
+## Screenshots
+![image](https://github.com/mococa/nullstack-simple-blog/assets/13316723/bdf066b6-4de8-4c92-ac79-744717f3d22b)
+![image](https://github.com/mococa/nullstack-simple-blog/assets/13316723/d4de39f1-a9b4-4115-b630-f849ff8f9d5c)
+
 ## How to run this Project
 
 Install the dependencies:
